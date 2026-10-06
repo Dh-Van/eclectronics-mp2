@@ -3,15 +3,12 @@
 
 module top_tb;
     logic clk = 0;
-    logic RGB_R;
-    logic RGB_G;
-    logic RGB_B;
 
-    top #(.CLK_HZ(20)) dut (
-        .clk (clk),
-        .RGB_R (RGB_R),
-        .RGB_G (RGB_G),
-        .RGB_B (RGB_B)
+    top #(
+        .CLK_HZ(12_000_000),
+        .STEP_INTERVAL(4)
+    ) dut (
+        .clk (clk)
     );
 
     always #41.667 clk = ~clk;
@@ -19,7 +16,7 @@ module top_tb;
     initial begin
         $dumpfile("top.vcd");
         $dumpvars(0, top_tb);
-        #5000;
+        #5000000;
         $finish;
     end
 

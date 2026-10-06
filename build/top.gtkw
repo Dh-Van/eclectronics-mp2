@@ -1,0 +1,49 @@
+[*]
+[*] GTKWave Analyzer v4.0.0-prealpha (132a086) (w)1999-2022 BSI
+[*] Sun Oct  4 04:11:33 2026
+[*]
+[dumpfile] "/home/dhvan/school/fall-2026/comp-arc/mp2/build/top.vcd"
+[dumpfile_mtime] "Sun Oct  4 04:08:54 2026"
+[dumpfile_size] 3242132
+[savefile] "/home/dhvan/school/fall-2026/comp-arc/mp2/build/top.gtkw"
+[timestart] 0
+[size] 1920 1043
+[pos] -27 -24
+*-29.317207 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] top_tb.
+[sst_width] 297
+[signals_width] 108
+[sst_expanded] 1
+[sst_vpaned_height] 304
+@8024
+[color] 1
+top_tb.dut.r_level[8:0]
+@20000
+-
+-
+-
+-
+@200
+-
+-
+@8024
+[color] 4
+top_tb.dut.g_level[8:0]
+@20000
+-
+-
+-
+-
+@200
+-
+-
+@8025
+[color] 5
+top_tb.dut.b_level[8:0]
+@20000
+-
+-
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0
